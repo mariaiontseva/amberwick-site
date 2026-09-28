@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 72" width="420" height="72" role="img" aria-label="Amberwick Estate Management">
-  <!-- Logo option 1b, light background. Text renders in Newsreader / IBM Plex Sans when the fonts are available. -->
-  <text x="0" y="56" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-weight="500" font-size="60" letter-spacing="-2.1" fill="#1C1F24">Amberwick</text>
-  <rect x="300" y="14" width="1" height="44" fill="#C4841A"/>
-  <text x="322" y="31" font-family="'IBM Plex Sans', system-ui, Helvetica, Arial, sans-serif" font-size="15" fill="#3A3E45">Estate</text>
-  <text x="322" y="50" font-family="'IBM Plex Sans', system-ui, Helvetica, Arial, sans-serif" font-size="15" fill="#3A3E45">Management</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="300" height="72" role="img" aria-label="Axiom Estate Management">
+  <!-- Logo option 1b. Text renders in Newsreader / IBM Plex Sans when the fonts are available. -->
+  <text x="0" y="56" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-weight="500" font-size="60" letter-spacing="-2.1" fill="#1C1F24">Axiom</text>
+  <rect x="172" y="14" width="1" height="44" fill="#C4841A"/>
+  <text x="194" y="31" font-family="'IBM Plex Sans', system-ui, Helvetica, Arial, sans-serif" font-size="15" fill="#3A3E45">Estate</text>
+  <text x="194" y="50" font-family="'IBM Plex Sans', system-ui, Helvetica, Arial, sans-serif" font-size="15" fill="#3A3E45">Management</text>
 </svg>

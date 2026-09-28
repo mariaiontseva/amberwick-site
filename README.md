@@ -1,13 +1,14 @@
-# Amberwick Estate Management — website
+# Axiom Estate Management — website
 
-One-page marketing site, built from the design handoff (`design_handoff_amberwick`, logo option 1b).
+One-page marketing site for Axiom Estate Management Ltd (formerly the working name "Amberwick"), built from
+the design handoff (`design_handoff_amberwick`, logo option 1b).
 Plain HTML/CSS/JS, no build step, no dependencies. Served by GitHub Pages from the `main` branch.
 
 ```
   index.html      page (copy is final, from the content spec)
   styles.css      design tokens and layout
   site.js         header shadow, active menu item, mobile menu, scroll reveal, enquiry form
-  favicon.svg     "Aw" on ink square
+  favicon.svg     "Ax" on ink square
   logo-light.svg  logo 1b for light backgrounds
   logo-dark.svg   logo 1b for dark backgrounds
   img/            hero photo (Alessio Patron / Unsplash) and the social-preview crop
@@ -35,14 +36,16 @@ The form validates on the client (name required, email must contain "@") and the
 - **with `data-endpoint`** set on `<form id="enquiry">` (Formspree, Basin, a serverless function…) it POSTs
   the fields as `FormData` with `Accept: application/json` and shows "Thank you. We reply within one working
   day." on a 2xx response, or an error line with the email address on failure;
-- **without `data-endpoint`** (current state) it opens the visitor's mail client with a prefilled message to
-  the address in `data-mailto` (`info@amberwick.co.uk`) and shows the same thank-you line.
+- **without `data-endpoint`** it opens the visitor's mail client with a prefilled message to the address in
+  `data-mailto` and shows the same thank-you line. `data-mailto` is **empty right now** (no domain yet), so the
+  form only shows the thank-you line and nothing is sent. Set it, or an endpoint, before sharing the site widely.
 
 A hidden `_gotcha` field is a honeypot for bots.
 
 ## Before going live
 
-- Replace the placeholders that render in amber: `[Town]`, `[Company number · registered office]`.
+- Replace the placeholders that render in amber: the email domain (`info@[domain]`, twice), `[Town]`,
+  `[Company number · registered office]`.
 - The contact block has no name or portrait for now; add them back (the design has a square photo and
   a serif name line) once Chris confirms.
 - Hero photo: "A brick building with windows and a street light" by Alessio Patron on Unsplash

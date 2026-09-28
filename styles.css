@@ -1,4 +1,4 @@
-/* Amberwick Estate Management — one-page site
+/* Axiom Estate Management — one-page site
    Tokens and measurements follow the design handoff (README.md in the handoff bundle).
    No border-radius, no gradients, no shadows except the sticky header on scroll. */
 
@@ -557,6 +557,7 @@ main#top { scroll-margin-top: 0; }
 }
 .person-role { font-size: 13px; font-weight: 500; color: var(--muted); }
 .person-text p { margin-top: 8px; font-size: 15px; color: var(--ink-2); line-height: 1.5; text-wrap: pretty; }
+.person-email-ph { text-decoration: none; }
 .person-email {
   margin-top: 10px;
   align-self: flex-start;

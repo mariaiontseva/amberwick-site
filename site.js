@@ -1,4 +1,4 @@
-/* Amberwick — page behaviour: sticky header shadow, active section in the menu,
+/* Axiom — page behaviour: sticky header shadow, active section in the menu,
    mobile menu, scroll reveal, and the enquiry form. No dependencies. */
 (function () {
   'use strict';

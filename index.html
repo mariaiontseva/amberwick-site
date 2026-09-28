@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Amberwick Estate Management</title>
-<meta name="description" content="Amberwick Estate Management: property and asset management for multi-let commercial buildings in Surrey and the South East. One integrated team, a named property manager, and service charges explained line by line.">
+<title>Axiom Estate Management</title>
+<meta name="description" content="Axiom Estate Management: property and asset management for multi-let commercial buildings in Surrey and the South East. One integrated team, a named property manager, and service charges explained line by line.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Amberwick Estate Management">
+<meta property="og:title" content="Axiom Estate Management">
 <meta property="og:description" content="Managing agent for multi-let commercial buildings in Surrey and the South East. One integrated team, a named property manager, and service charges you can read.">
 <meta property="og:image" content="https://mariaiontseva.github.io/amberwick-site/img/og.jpg">
 <meta name="theme-color" content="#1C1F24">
@@ -21,8 +21,8 @@
 
 <header class="site-header" id="site-header">
   <div class="wrap header-inner">
-    <a href="#top" class="logo" aria-label="Amberwick Estate Management, back to top">
-      <span class="logo-word">Amberwick</span>
+    <a href="#top" class="logo" aria-label="Axiom Estate Management, back to top">
+      <span class="logo-word">Axiom</span>
       <span class="logo-sub"><span class="logo-rule"></span><span class="logo-lines"><span>Estate</span><span>Management</span></span></span>
     </a>
 
@@ -58,7 +58,7 @@
       <div class="hero-copy">
         <p class="tagline"><span class="tagline-square" aria-hidden="true"></span>Managing agent · Surrey &amp; the South East</p>
         <h1>Buildings that work every day. Service charges you can read.</h1>
-        <p class="lede">Amberwick manages multi-let commercial buildings for their owners and the businesses inside them. One integrated team for property management, facilities and client accounting, led by a named manager who knows your building.</p>
+        <p class="lede">Axiom manages multi-let commercial buildings for their owners and the businesses inside them. One integrated team for property management, facilities and client accounting, led by a named manager who knows your building.</p>
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary">Talk to us about a building</a>
           <a href="#services" class="btn btn-secondary">What we manage</a>
@@ -274,7 +274,7 @@
           <div class="person-text">
             <div class="person-name">Property manager · Director</div>
             <p>Overall responsibility for the management of the property and landlord and tenant matters.</p>
-            <a href="mailto:info@amberwick.co.uk" class="person-email">info@amberwick.co.uk</a>
+            <span class="person-email person-email-ph">info@<span class="ph-inline">[domain]</span></span>
           </div>
         </div>
       </div>
@@ -282,9 +282,10 @@
       <!--
         Enquiry form. Set data-endpoint to the client's form handler (Formspree, Basin,
         a serverless function…) and the form POSTs there as FormData with Accept: application/json.
-        Without data-endpoint it falls back to a prefilled mailto: to info@amberwick.co.uk.
+        Without data-endpoint it falls back to a prefilled mailto: to the address in data-mailto
+        (empty until the domain is registered; then the form only shows the thank-you line).
       -->
-      <form class="enquiry" id="enquiry" novalidate data-endpoint="" data-mailto="info@amberwick.co.uk">
+      <form class="enquiry" id="enquiry" novalidate data-endpoint="" data-mailto="">
         <div class="enquiry-fields">
           <div class="field-row">
             <label class="field">
@@ -311,7 +312,7 @@
             <button type="submit" class="btn btn-primary btn-submit">Send enquiry</button>
             <span class="enquiry-note">We reply within one working day.</span>
           </div>
-          <p class="enquiry-fail" role="alert" hidden>Something went wrong sending the form. Please email <a href="mailto:info@amberwick.co.uk">info@amberwick.co.uk</a> instead.</p>
+          <p class="enquiry-fail" role="alert" hidden>Something went wrong sending the form. Please try again in a moment.</p>
         </div>
         <p class="enquiry-sent" role="status" hidden>Thank you. We reply within one working day.</p>
       </form>
@@ -322,8 +323,8 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div class="footer-top">
-      <div class="logo logo-dark" aria-label="Amberwick Estate Management">
-        <span class="logo-word">Amberwick</span>
+      <div class="logo logo-dark" aria-label="Axiom Estate Management">
+        <span class="logo-word">Axiom</span>
         <span class="logo-sub"><span class="logo-rule"></span><span class="logo-lines"><span>Estate</span><span>Management</span></span></span>
       </div>
       <div class="footer-cols">
@@ -336,13 +337,13 @@
         </div>
         <div class="footer-col">
           <span class="footer-label">Contact</span>
-          <a href="mailto:info@amberwick.co.uk">info@amberwick.co.uk</a>
+          <span>info@<span class="ph">[domain]</span></span>
           <span class="footer-muted"><span class="ph">[Town]</span>, Surrey</span>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="legal">© 2026 Amberwick Estate Management Ltd. <span class="ph">[Company number · registered office]</span>. Service charge budgets and accounts are prepared with regard to the RICS Professional Statement, <em>Service Charges in Commercial Property</em>.</div>
+      <div class="legal">© 2026 Axiom Estate Management Ltd. <span class="ph">[Company number · registered office]</span>. Service charge budgets and accounts are prepared with regard to the RICS Professional Statement, <em>Service Charges in Commercial Property</em>.</div>
       <a href="#top" class="back-top">Back to top ↑</a>
     </div>
   </div>
