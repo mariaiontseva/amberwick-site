@@ -36,7 +36,7 @@ The form validates on the client (name required, email must contain "@") and the
   the fields as `FormData` with `Accept: application/json` and shows "Thank you. We reply within one working
   day." on a 2xx response, or an error line with the email address on failure;
 - **without `data-endpoint`** (current state) it opens the visitor's mail client with a prefilled message to
-  the address in `data-mailto` (`chris@amberwick.co.uk`) and shows the same thank-you line.
+  the address in `data-mailto` (`info@amberwick.co.uk`) and shows the same thank-you line.
 
 A hidden `_gotcha` field is a honeypot for bots.
 
