@@ -10,6 +10,7 @@ Plain HTML/CSS/JS, no build step, no dependencies. Served by GitHub Pages from t
   favicon.svg     "Aw" on ink square
   logo-light.svg  logo 1b for light backgrounds
   logo-dark.svg   logo 1b for dark backgrounds
+  img/            hero photo (Alessio Patron / Unsplash) and the social-preview crop
 ```
 
 ## Run locally
@@ -45,8 +46,8 @@ A hidden `_gotcha` field is a honeypot for bots.
 - The contact block has no name or portrait for now; add them back (the design has a square photo and
   a serif name line) once Chris confirms.
 - Hero photo: "A brick building with windows and a street light" by Alessio Patron on Unsplash
-  (https://unsplash.com/photos/sOfb5xIkchY, Unsplash licence, credit appreciated). It is hotlinked from
-  Unsplash's CDN with a light warm grade in CSS; copy it into `img/` and point `src`/`srcset` there before go-live.
+  (https://unsplash.com/photos/sOfb5xIkchY, Unsplash licence, credit appreciated). Stored in `img/` in two
+  sizes (JPEG + WebP) with a light warm grade applied in CSS; `img/og.jpg` is the social-preview crop.
 - Set the form endpoint (see above).
 - Fonts load from Google Fonts (Newsreader 400/500, IBM Plex Sans 400/500/600). Self-host them for production
   if the client prefers no third-party requests.
