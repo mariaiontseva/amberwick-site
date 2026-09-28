@@ -10,7 +10,7 @@ Plain HTML/CSS/JS, no build step, no dependencies. Served by GitHub Pages from t
   favicon.svg     "Aw" on ink square
   logo-light.svg  logo 1b for light backgrounds
   logo-dark.svg   logo 1b for dark backgrounds
-  img/            hero photo (placeholder, Unsplash / Modunite Ltd) and Chris's temporary portrait
+  img/            hero photo (placeholder, Unsplash / Modunite Ltd)
 ```
 
 ## Run locally
@@ -42,9 +42,11 @@ A hidden `_gotcha` field is a honeypot for bots.
 
 ## Before going live
 
-- Replace the placeholders that render in amber: `[Surname]`, `[Town]`, `[Company number · registered office]`.
-- Replace the hero photo with a brick office facade (brief, Photo 1) and the portrait with a proper
-  head-and-shoulders shot (Photo 8). If the Unsplash hero stays, credit "Photo by Modunite Ltd on Unsplash".
+- Replace the placeholders that render in amber: `[Town]`, `[Company number · registered office]`.
+- The contact block has no name or portrait for now; add them back (the design has a square photo and
+  a serif name line) once Chris confirms.
+- Replace the hero photo with a brick office facade (brief, Photo 1). If the Unsplash hero stays, credit
+  "Photo by Modunite Ltd on Unsplash".
 - Set the form endpoint (see above).
 - Fonts load from Google Fonts (Newsreader 400/500, IBM Plex Sans 400/500/600). Self-host them for production
   if the client prefers no third-party requests.
