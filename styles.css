@@ -117,6 +117,15 @@ h2 {
   font-variant-numeric: tabular-nums;
 }
 
+/* A word in the commitments strip (e.g. "Transparent") is set a step smaller than the figures
+   and bottom-aligned to the same box height, so the labels below stay on one line across columns. */
+.numeral-word {
+  font-size: clamp(38px, 3.1vw, 48px);
+  display: flex;
+  align-items: flex-end;
+  min-height: calc(clamp(44px, 3.6vw, 56px) * 0.9);
+}
+
 /* Placeholders that stay visible until real data arrives */
 .ph {
   background: rgba(225, 160, 58, 0.18);
