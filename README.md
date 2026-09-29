@@ -26,8 +26,9 @@ then open http://localhost:4173.
 
 ## Deploy
 
-GitHub Pages publishes the root of `main` on every push (Settings → Pages). For a custom domain add a
-`CNAME` file with the domain and point the DNS at GitHub Pages.
+GitHub Pages publishes the root of `main` on every push. Custom domain: `axiomestatemanagement.co.uk` (the `CNAME` file);
+DNS at the registrar: A records for the apex to 185.199.108.153 / .109.153 / .110.153 / .111.153 and a CNAME
+`www` → `mariaiontseva.github.io`. Enforce HTTPS in Settings → Pages once the certificate is issued.
 
 ## Enquiry form
 
@@ -37,15 +38,14 @@ The form validates on the client (name required, email must contain "@") and the
   the fields as `FormData` with `Accept: application/json` and shows "Thank you. We reply within one working
   day." on a 2xx response, or an error line with the email address on failure;
 - **without `data-endpoint`** it opens the visitor's mail client with a prefilled message to the address in
-  `data-mailto` and shows the same thank-you line. `data-mailto` is **empty right now** (no domain yet), so the
-  form only shows the thank-you line and nothing is sent. Set it, or an endpoint, before sharing the site widely.
+  `data-mailto` and shows the same thank-you line. `data-mailto` is `info@axiomestatemanagement.co.uk`; that mailbox must exist (email hosting is
+  separate from the domain) or enquiries will bounce.
 
 A hidden `_gotcha` field is a honeypot for bots.
 
 ## Before going live
 
-- Replace the placeholders that render in amber: the email domain (`info@[domain]`, twice), `[Town]`,
-  `[Company number · registered office]`.
+- Replace the placeholders that render in amber: `[Town]`, `[Company number · registered office]`.
 - The contact block has no name or portrait for now; add them back (the design has a square photo and
   a serif name line) once Chris confirms.
 - Hero photo: "A brick building with windows and a street light" by Alessio Patron on Unsplash
